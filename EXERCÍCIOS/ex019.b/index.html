@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes e Pseudo-elementos</title>
+    <style>
+        body {
+            font: normal 1em Arial;
+        }
+        a {
+            font-weight: bold;
+            text-decoration: none;
+            color: red;
+        }
+        a:visited{
+            color: darkred;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .especial:hover {
+            color: white;
+            background-color: rgb(77, 76, 76);
+            text-decoration: none;
+        }
+        .especial::before {
+            content: '>>';
+            font-weight: lighter;
+        }
+        .especial::after {
+            content: '<<';
+            font-weight: lighter;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Personalizando um link</h1> 
+    <p> Acesse meu Instagram <a href="https://www.instagram.com/vitorfalavinhafotografia/" target="_blank" class="especial"> VitorFalavinhaFotografia</a></p>
+
+    <p>Para conhecer mais dos meus trabalhos visite meu <a href="https://vitorfalavinha.myportfolio.com/" target="_blank" class="especial"> Portfólio Adobe</a> </p>
+</body>
+</html>

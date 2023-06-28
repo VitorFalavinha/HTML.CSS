@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'titulo';
+    src: url('../font/CartoGothicStd-Book.otf') format(opentype);
+}
+
+ 
+:root {
+    --cor0: #DA9200;
+    --cor1: #EFE7D7;
+    --cor2: #F0B545;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+header {
+   /* background-color: var(--cor0);
+    margin: 0px;
+    padding-top: 5px;
+    min-height: 40px;
+    max-height: 50px ;
+    color: white;
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+    padding-left: 15%;
+    padding-top: 25px;*/
+
+}
+nav > div > img { 
+    margin-top: -1%;
+    padding-left: 8% ;
+    position: static;
+    
+}
+nav {
+    background-color: rgba(0, 0, 0, 0.822);
+    min-height: 59px;
+    text-align: right;
+    padding-right: 10%;
+    margin: auto;
+    position: relative;
+}
+
+nav > div {
+    padding-top: 1.5%;
+    min-width: 500px;
+}
+nav > div > a {
+    color: white;
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+}
+div a:hover {
+    color: var(--cor0);
+}
+    
+main {
+    background-color: white;
+    padding: 20px;
+    margin-left: 7%;
+    min-width: 350px;
+    max-width: 840px;
+}
+main h1 {
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 3em; 
+}
+main h2 {
+    font-family: 'titulo', Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    /*background-image: var(--cor1);*/
+    padding: 5px;
+    border-width: 0px 0px 0px 8px;
+    border-style: solid;
+    border-color: #F0B545;
+    background-color: var(--cor1);
+    
+}
+main h2#inicial {
+    background-color: white;
+    border: none;
+    margin-left: ;
+    border-left-width: 8px ;
+}
+main a {
+    color: #DA9200;
+}
+main h3 {
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    font-size: 1.8em;
+    font-weight: bolder;
+
+}
+main p {
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 17px;
+    text-indent: 15px;
+    text-align: justify;
+    padding: 10px 0px ;
+    line-height: 25px;
+}
+
+ul h2 {
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    font-weight: medium;
+    font-size: 30px;
+    background-image: none;
+}
+ul li {
+    list-style-type: disc;
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 17px;
+    text-align: justify;
+    margin-left: 4%;
+    padding: 10px;
+    line-height: 25px;
+
+}
+section {
+    background-color: #6C757D;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5px;
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+section > ul > dt.quick {
+    padding-bottom: 15px;
+}
+section dl {
+    font-weight: bolder;
+
+}
+figure {
+    padding-right: 0%;
+    padding-left: 25%;
+    
+}
