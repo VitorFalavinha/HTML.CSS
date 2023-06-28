@@ -1,2 +1,2 @@
 # HTML.CSS
- Curso HTML e CSS curso em vídeo
+Estou aprendendo a criar sites e vou gerenciar meus repositórios. 
