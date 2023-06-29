@@ -29,8 +29,7 @@ header {
     padding-top: 25px;*/
 
 }
-nav > div > img { 
-    margin-top: -1%;
+nav > img { 
     padding-left: 8% ;
     position: static;
     
@@ -39,23 +38,24 @@ nav {
     background-color: rgba(0, 0, 0, 0.822);
     min-height: 59px;
     text-align: right;
-    padding-right: 10%;
+    padding-right:;
     margin: auto;
     position: relative;
 }
 
-nav > div {
-    padding-top: 1.5%;
-    min-width: 500px;
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 0%;
 }
-nav > div > a {
+nav ul li a {
     color: white;
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 10px;
+    
 }
-div a:hover {
+li a:hover {
     color: var(--cor0);
 }
     
