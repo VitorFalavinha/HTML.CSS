@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias dinâmicas</title>
+</head>
+<body>
+    <h1>Imagen dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente ou diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/SQUARE-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/SQUARE-M.png" type="image/png">
+        <img src="Imagens/SQUARE-G.png" alt="imagem pequena">
+    </picture>
+
+<h1>Reproduzindo áudios</h1>
+<p>Vamos aprender a reproduzir áudios em HTML</p>
+<audio src="midia/backwoods.mp3" controls></audio>
+
+<p>Outra forma de adicionar áudios é abrir uma tag audio e colocar diferentes sources dentro dele e lá colocar o tipo ou os tipos/formatos de áudio.</p>
+    <audio preload="">
+        <source src="midia/backwoods.mp3" type="audio/mpeg">
+        <source src="midia/backwoods.ogg" type="audio/ogg">
+        <source src="midia/backwoods.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir áudio.</p>
+        <a href="midia/backwoods.mp3">Clique aqui para baixar o arquivo MP3</a>
+    </audio>
+    
+<h1></h1>
+
+
+
+</body>
+</html>
