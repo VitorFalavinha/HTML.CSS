@@ -38,7 +38,6 @@ nav {
     background-color: rgba(0, 0, 0, 0.822);
     min-height: 59px;
     text-align: right;
-    padding-right:;
     margin: auto;
     position: relative;
 }
@@ -86,7 +85,6 @@ main h2 {
 main h2#inicial {
     background-color: white;
     border: none;
-    margin-left: ;
     border-left-width: 8px ;
 }
 main a {
