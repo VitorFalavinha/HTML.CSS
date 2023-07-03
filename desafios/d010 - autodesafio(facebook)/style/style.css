@@ -29,29 +29,39 @@ header {
     padding-top: 25px;*/
 
 }
-nav > img { 
-    padding-left: 8% ;
-    position: static;
-    
-}
+
 nav {
     background-color: rgba(0, 0, 0, 0.822);
     min-height: 59px;
-    text-align: right;
-    margin: auto;
     position: relative;
+    align-items: center;   
 }
+nav > img { 
+    padding-left: 8% ;
+    position: absolute;
+    padding-top: 3px;
+    
+}
+nav div {
+    display: flex;
+    justify-content: right;
+}
+ nav div ul {
+    width: 1000px;
+    padding-left: 200px;
+ }
 
-nav ul li{
+nav div ul li{
     list-style-type: none;
     display: inline-block;
-    padding: 0%;
+    margin: 3px;
+     
 }
 nav ul li a {
     color: white;
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1.1em;
     
 }
 li a:hover {
