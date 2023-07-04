@@ -17,7 +17,7 @@
     
 }
 html, body {
-    font-family: var(--fonte1);
+    font-family: var(--fonte3);
     min-height: 100vh;
     background-color: antiquewhite;
 
@@ -28,7 +28,7 @@ header {
     text-align: center;
 }
 header > h1 {
-    font-family: var(--fonte2);
+    font-family: var(--fonte3);
     font-size: 8vw;
     font-weight: 200;
     padding-top: 50px;
@@ -61,16 +61,36 @@ section.normal {
 section.imagem {
      background-color: rgb(39, 39, 39);
      color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.281);
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 section.imagem > p {
     display: inline-block;
     padding: 5px;
-    background-color: rgba(0, 0, 0, 0.295);
+    background-color: rgba(0, 0, 0, 0.500);
+    border-radius: 3px;
+    text-shadow: 1px 1px 0px black;
+    
+}
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;   
+}
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer {
+    font-family: var(--fonte3);
     background-color: black;
     text-align: center;
-    color: white;
+    color: rgb(192, 192, 192);
     padding: 10px;
+}
+footer > p > a {
+    color: rgb(202, 177, 96);
+    text-decoration: dashed;
 }
