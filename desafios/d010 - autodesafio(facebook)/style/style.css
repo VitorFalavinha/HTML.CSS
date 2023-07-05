@@ -15,6 +15,9 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    position: relative;
+}
 header {
    /* background-color: var(--cor0);
     margin: 0px;
@@ -30,10 +33,11 @@ header {
 
 }
 
-nav {
+body > nav {
     background-color: rgba(0, 0, 0, 0.822);
     min-height: 59px;
-    position: relative;
+    position: sticky;
+    top: 0px;
     align-items: center;   
 }
 nav > a { 
@@ -42,13 +46,14 @@ nav > a {
     padding-top: 3px;
     
 }
-nav div {
+body > nav > div {
     display: flex;
     justify-content: right;
 }
  nav div ul {
     width: 1000px;
     padding-left: 200px;
+
  }
 
 nav div ul li{
@@ -74,6 +79,7 @@ main {
     margin-left: 7%;
     min-width: 350px;
     max-width: 840px;
+    
 }
 main h1 {
     font-family: 'titulo',Arial, Helvetica, sans-serif;
@@ -93,6 +99,8 @@ main h2 {
     background-color: var(--cor1);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
     margin-top: 20px;
+    position: sticky;
+    top: 60px;
     
 }
 main h2#inicial {
@@ -109,6 +117,7 @@ main h3 {
     font-size: 1.8em;
     font-weight: bolder;
     padding-top: 15px;
+    
 
 }
 main p {
@@ -172,7 +181,7 @@ figure.facelogo {
        
 }
 figcaption {
-    max-width: 96px;
+    max-width: 260px;
     text-align: center;
 }
 figcaption#mark {
