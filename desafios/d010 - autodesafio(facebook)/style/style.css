@@ -36,7 +36,7 @@ nav {
     position: relative;
     align-items: center;   
 }
-nav > img { 
+nav > a { 
     padding-left: 8% ;
     position: absolute;
     padding-top: 3px;
@@ -79,6 +79,7 @@ main h1 {
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     font-weight: medium;
     font-size: 3em; 
+    width: 80vw;
 }
 main h2 {
     font-family: 'titulo', Arial, Helvetica, sans-serif;
@@ -90,12 +91,15 @@ main h2 {
     border-style: solid;
     border-color: #F0B545;
     background-color: var(--cor1);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
+    margin-top: 20px;
     
 }
 main h2#inicial {
     background-color: white;
     border: none;
     border-left-width: 8px ;
+    box-shadow: none;
 }
 main a {
     color: #DA9200;
@@ -104,6 +108,7 @@ main h3 {
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     font-size: 1.8em;
     font-weight: bolder;
+    padding-top: 15px;
 
 }
 main p {
@@ -114,6 +119,7 @@ main p {
     text-align: justify;
     padding: 10px 0px ;
     line-height: 25px;
+    padding-top: 15px;
 }
 
 ul h2 {
@@ -133,24 +139,56 @@ ul li {
     line-height: 25px;
 
 }
-section {
+table {
     background-color: #6C757D;
     border-radius: 5px;
-    margin: 10px;
-    padding: 5px;
+    margin: 10px 2px 20px 2px;
+    padding: 10px;
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     color: white;
+    width: 61vw;
     
 }
-section > ul > dt.quick {
-    padding-bottom: 15px;
+tr > td {
+    padding: 10px;
 }
-section dl {
+ tr > td.bold {
     font-weight: bolder;
+    font-size: 1.1em;
+}
+td.quick {
+    padding-bottom: px;
+    padding-left: 20px;
+}
+tr.dark {
+    background-color: #4b5157da;   
+}
+td > a {
+    color: white;
+}
+figure.facelogo {
+    margin-left: 40%;
+    padding: 15px 0px 15px 0px;       
+}
+figcaption {
+    max-width: 96px;
+    text-align: center;
+}
+figcaption#mark {
+    max-width: 297px;
+}
+footer{
+    background-color: var(--cor0);
+    padding: 15px;
+    text-align: center;
+    font-family: 'titulo',sans-serif;
 
 }
-figure {
-    padding-right: 0%;
-    padding-left: 25%;
+footer > p > a {
     
+    font-weight: bold;
+    text-decoration: none;
+}
+footer > p > a:hover {
+    color: #dad5cd;
 }
