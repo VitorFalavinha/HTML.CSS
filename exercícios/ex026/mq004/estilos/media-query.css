@@ -28,8 +28,21 @@ Extra large devices (large laptops and desktops, 1200px and up)
 
 
 @media print { /*IMPRESSÃO*/
+    * {
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+
     body {
-        background-image: url(../imagens/back-print.jpg);
+        background-image: url(../imagens/back-print.jpg);  
+        
+    }
+    main {
+        border: 2px solid black;
+    }
+    main h1 {
+        text-shadow: none;
+        color: black;
     }
     img#phone {display: none;}
     img#tablet {display: none;}
