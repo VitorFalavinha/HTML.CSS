@@ -15,6 +15,9 @@
     margin: 0px;
     padding: 0px;
 }
+body {
+    font-family: 'titulo';
+}
 /*
 body {
     position: relative;
@@ -116,9 +119,13 @@ div {
     display: none;
     
 }
+
 ul > li{
     list-style: none;
     padding-top: 12px;
+    text-align: right;
+    padding-right: px;
+    
  
 }
 div > ul > li > a {
@@ -133,16 +140,3 @@ li a:hover {
     color: var(--cor0);
 }
 
-@media screen and (min-width: 768px) {
-    i#burguer {
-        display: none;
-    }
-    nav > div {
-        display: block;
-    }
-    div > ul > li {
-        display: inline-block ;
-        
-    }
-    
-}
