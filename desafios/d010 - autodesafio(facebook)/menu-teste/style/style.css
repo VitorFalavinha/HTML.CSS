@@ -112,8 +112,8 @@ i#burguer:hover {
     cursor: pointer;
 
 }
-
-ul {
+div {
+    display: none;
     
 }
 ul > li{
