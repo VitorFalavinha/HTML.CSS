@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family:'titulo';
+    src: url('../font/CartoGothicStd-Book.otf') format(opentype);
+}
+
+ 
+:root {
+    --cor0: #DA9200;
+    --cor1: #EFE7D7;
+    --cor2: #F0B545;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*
+body {
+    position: relative;
+}
+header {
+   background-color: var(--cor0);
+    margin: 0px;
+    padding-top: 5px;
+    min-height: 40px;
+    max-height: 50px ;
+    color: white;
+    text-align: left;
+    font-family: arial, sans-serif;
+    font-weight: lighter;
+    padding-left: 15%;
+    padding-top: 25px;
+
+}
+*/
+
+/*
+nav {
+    background-color: rgba(0, 0, 0, 0.822);
+    min-height: 59px;
+    max-height: 100px;
+    position: sticky;
+    top: 0px;
+    align-items: center;   
+}
+i#burguer {
+    display: block;
+    color: #EFE7D7;
+    text-align: right;
+    padding: 15px 30px;
+}
+i#burguer:hover {
+    background-color: rgba(112, 112, 112, 0.521);
+    cursor: pointer;
+
+}
+nav > a { 
+    padding-left: 8% ;
+    position: absolute;
+    padding-top: 3px;
+    
+}
+nav > ul {
+    display: block;
+}
+
+nav > div > ul {
+    width: 1000px;
+    text-align: right;
+    
+ }
+
+ div > ul > li{
+    list-style-type: none;
+    padding: 4px;
+    padding-top: 15px;
+     
+}
+ul > li > a {
+    color: white;
+    font-family: 'titulo',Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.1em;
+    
+}
+*/
+li a:hover {
+    color: var(--cor0);
+}
+
+@media screen and (min-width: 768px) {
+    i#burguer {
+        display: none;
+    }
+    nav > div {
+        display: block;
+    }
+    div > ul > li {
+        display: ;
+        background-color: #da910046;
+    }
+    
+}
