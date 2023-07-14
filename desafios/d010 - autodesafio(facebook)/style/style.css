@@ -4,21 +4,7 @@
     font-family:'titulo';
     src: url('../font/CartoGothicStd-Book.otf') format(opentype);
 }
-@media screen and (min-width: 768px) {
-    i#burguer {
-        display: none;
-    }
-    nav > div {
-        display: block;
-    }
-    div > ul > li {
-        display: inline-block;
-    }
-    main {
-        width: 768px;
-    }
-}
- 
+
 :root {
     --cor0: #DA9200;
     --cor1: #EFE7D7;
@@ -32,60 +18,52 @@ body {
     position: relative;
 }
 header {
-   /* background-color: var(--cor0);
-    margin: 0px;
-    padding-top: 5px;
-    min-height: 40px;
-    max-height: 50px ;
-    color: white;
-    text-align: left;
-    font-family: arial, sans-serif;
-    font-weight: lighter;
-    padding-left: 15%;
-    padding-top: 25px;*/
-
-}
-
-nav {
-    background-color: rgba(0, 0, 0, 0.822);
-    min-height: 59px;
+    background-color: rgb(58, 58, 58);
     position: sticky;
     top: 0px;
-    align-items: center;   
 }
-nav > a { 
-    padding-left: 8% ;
-    position: absolute;
+header nav ul {
+    display: block;
+    text-align: left;
+
+    
+}
+
+i#burguer {
+    display: block;
+    color: #EFE7D7;
+    text-align: right;
+    padding: 15px 30px;
+    margin-top: -60px;
+}
+i#burguer:hover {
+    cursor: pointer;
+}
+header img {
     padding-top: 3px;
-    
+    padding-left: 8vw;
 }
-body > nav > div {
-    display: flex;
-    justify-content: right;
-}
- nav div ul {
-    width: 1000px;
-    padding-left: 200px;
 
- }
-
-nav div ul li{
-    list-style-type: none;
-    display: inline-block;
-    margin: 3px;
-     
+nav > ul > li{
+    list-style: none;
+    padding-top: 12px;
+    padding-right: 10px;
+    text-align: right;
+    display: block;
 }
-nav ul li a {
-    color: white;
-    font-family: 'titulo',Arial, Helvetica, sans-serif;
+ ul > li > a {
+    display: block;
+    padding: 10px;
+    text-align: none;
     text-decoration: none;
-    font-size: 1.1em;
-    
+    color: white;
+    font-family: 'titulo' ;
 }
 li a:hover {
     color: var(--cor0);
+    transform: translate(0px, 2px);
+    transition: transform .2s;
 }
-    
 main {
     background-color: white;
     padding: 20px;
@@ -111,10 +89,7 @@ main h2 {
     border-color: #F0B545;
     background-color: var(--cor1);
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.568);
-    margin-top: 20px;
-    position: sticky;
-    top: 60px;
-    
+    margin-top: 20px; 
 }
 main h2#inicial {
     background-color: white;
@@ -130,8 +105,6 @@ main h3 {
     font-size: 1.8em;
     font-weight: bolder;
     padding-top: 15px;
-    
-
 }
 main p {
     font-family: 'titulo',Arial, Helvetica, sans-serif;
@@ -143,14 +116,13 @@ main p {
     line-height: 25px;
     padding-top: 15px;
 }
-
-ul h2 {
+main ul h2 {
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     font-weight: medium;
     font-size: 30px;
     background-image: none;
 }
-ul li {
+main ul li {
     list-style-type: disc;
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     font-weight: normal;
@@ -159,7 +131,6 @@ ul li {
     margin-left: 4%;
     padding: 10px;
     line-height: 25px;
-
 }
 table {
     background-color: #6C757D;
@@ -168,8 +139,7 @@ table {
     padding: 10px;
     font-family: 'titulo',Arial, Helvetica, sans-serif;
     color: white;
-    width: 61vw;
-    
+    width: 61vw; 
 }
 tr > td {
     padding: 10px;
@@ -205,7 +175,6 @@ footer{
     padding: 15px;
     text-align: center;
     font-family: 'titulo',sans-serif;
-
 }
 footer > p > a {
     
